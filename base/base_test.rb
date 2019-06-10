@@ -26,7 +26,7 @@ class BaseTest
   end
 
   at_exit do
-#    @driver.quit
+    @driver.quit
   end
 
 end
